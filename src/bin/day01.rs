@@ -3,8 +3,8 @@ use std::io::BufRead;
 use std::io::BufReader;
 
 fn main() {
-    println!("Day 01 First Star: {} measurements are larger than the previous measurement", first_star("src/inputs/day01/puzzle.txt"));
-    println!("Day 01 Second Star: {} sums are larger than the previous sum", second_star("src/inputs/day01/puzzle.txt"));
+    println!("Day 01 First Star Answer: {}", first_star("src/inputs/day01/puzzle.txt"));
+    println!("Day 01 Second Star Answer: {}", second_star("src/inputs/day01/puzzle.txt"));
 }
 
 fn first_star(filename: &str) -> u32 {
